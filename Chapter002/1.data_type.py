@@ -24,7 +24,8 @@ print(isinstance(False, bool))
 
 # str definition ways
 single_quotation = 'Hello\n'
-double_quotation = "Python" # recommended
+# recommended
+double_quotation = "Python"
 multiple_rows = """
     Hello
     Python
