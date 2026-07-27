@@ -3,6 +3,6 @@
 #
 # print(f"Your name is {name} and your age is {age} years old.")
 
-deposit = 10000
+balance = 10000
 withdrawal = input("Please input your withdrawal: ")
-print(f"Your account deposit : {deposit - float(withdrawal)}")
+print(f"Your account deposit : ${balance - float(withdrawal)}")
