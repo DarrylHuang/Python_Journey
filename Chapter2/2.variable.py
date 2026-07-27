@@ -4,6 +4,10 @@ print(num)
 num = num + num
 print(num)
 
+# floating numbers cannot guarantee calculation accuracy.
+print(0.2 + 0.3 == 0.5) # True
+print(0.1 + 0.2 == 0.3) # False
+
 num = 2.71828
 print(num)
 
