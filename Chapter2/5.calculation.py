@@ -12,8 +12,19 @@ print("10 ^ 4 =", 10 ^ 4)
 print("~10 =", ~10 // 3)
 print("10 << 4 =", 10 << 4)
 print("10 >> 4 =", 10 >> 4)
+print(10 / 2 * 6)
+print(10 > 4)
+print(10 >= 4)
+print(10 < 4)
+print(10 != 4)
 
-
+# "and" returns True or False. In fact, the and and OR operators in Python return the object involved in the operation itself, not the Boolean value (unless the object involved in the operation itself is a Boolean value).
+# 0 is False; All non-zero numbers are true
+print(10 and 4) # print(True and True)
+num = 6
+print(num > 4 and num < 10)
+# simplified
+print("simplified: ", 4 < num < 10)
 
 # priority high to low, same level calc operator processing is left-to-right:
 # level1: ()
@@ -48,4 +59,3 @@ print("10 >> 4 =", 10 >> 4)
 #     | Special (Walrus)               | a = expression  | :=              | Assignment expr. (Python 3.8+)           |
 #     +--------------------------------+-----------------+-----------------+------------------------------------------+
 
-print(10 / 2 * 6)
