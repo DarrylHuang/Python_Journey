@@ -50,7 +50,7 @@ level14:
     | Arithmetic Multiplication      | a = a * b       | a *= b          | Multiplication                           |
     | Arithmetic Division            | a = a / b       | a /= b          | Division (float)                         |
     | Arithmetic Floor Div           | a = a // b      | a //= b         | Floor division                           |
-    | Arithmetic Modulo              | a = a % b       | a %= b          | Modulo (remainder)                       |
+    | Arithmetic Mod                 | a = a % b       | a %= b          | Mod (remainder)                          |
     | Arithmetic Exponentiation      | a = a ** b      | a **= b         | Exponentiation                           |
     | Shift Left                     | a = a << b      | a <<= b         | Left shift                               |
     | Shift Right                    | a = a >> b      | a >>= b         | Right shift                              |

@@ -42,3 +42,12 @@ while True:
     if answer != "Y":
         print("Input is not Y. Program ended. Final balance: $%.2f" % balance)
         break
+
+
+i = 10
+times = 0
+while i > 0:
+    times += 1
+    i -= 1
+else:
+    print(f"the value of i : {i}, loop times : {times}")
