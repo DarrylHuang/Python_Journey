@@ -1,4 +1,4 @@
-score = 50
+score = 40
 if score >= 90:
     print("A")
 elif score >= 80:
@@ -7,10 +7,8 @@ elif score >= 70:
     print("C")
 elif score >= 60:
     print("D")
-elif score < 60 or score >= 40:
-    print("D")
-elif score < 60 | score >= 40:
-    print("D") # also allowed
+elif score < 60 or score == 40:
+    print("E")
 else:
     pass
     print("F")
