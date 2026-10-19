@@ -51,3 +51,12 @@ while i > 0:
     i -= 1
 else:
     print(f"the value of i : {i}, loop times : {times}")
+
+n = 1
+t = 0
+while n <= 100:
+    if n % 2 == 0:
+        t += n
+    n += 1
+print(f"the value of t : {t}")
+
