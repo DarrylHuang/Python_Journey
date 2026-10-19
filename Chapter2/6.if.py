@@ -22,7 +22,7 @@ print(electric_value == int("0"))
 
 while True:
     text = input("Enter the correct passcode: ")
-    if text == "python" or text == "python3": # The vertical pipe operator will be recognized as a calculate operation rather than "or" logic in if statements, you must use the key word "or" to make it.
+    if text == "python" or text == "python3": # The vertical pipe operator will be recognized as a calculate operation rather than "or" logic in if statements, you must use the key word "or" to represent or-logic.
         print("passcode is correct!")
         break
     else:
